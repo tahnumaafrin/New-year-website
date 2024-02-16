@@ -176,13 +176,13 @@ body {
   font-weight: 900;
 }
 
-.year-para{
-    width: 200px;
-    height: 80px;
+.year-para {
+  width: 200px;
+  height: 80px;
 }
 
-.year-img{
-    padding-top: 20px;
+.year-img {
+  padding-top: 20px;
 }
 
 .gifts {
@@ -216,8 +216,8 @@ body {
   margin-bottom: 60px;
 }
 
-.images:hover{
-    background-color: yellowgreen;
+.images:hover {
+  background-color: yellowgreen;
 }
 /* Subscribe section */
 
@@ -271,12 +271,11 @@ body {
   height: 300px;
   padding-top: 80px;
   margin-left: 10px;
+  margin-top: 30px;
 }
 
 .footer-text {
   color: white;
-  width: 300px;
-  height: 50px;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -299,12 +298,38 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-/* web-img{
-    padding-left: 12px; */
+
+.hr{
+    text-align: center;
+}
 
 .hr-line {
   width: 50%;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* text-align: center; */
+  padding-top: 30px;
+  /* border-bottom: 1px solid white; */
+  text-align: center;
+}
+
+.footer-imgs {
+  text-align: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.footer-img {
+  padding-right: 7px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hr-line2 {
+  width: 50%;
+}
+
+.footers {
+    padding-top: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
