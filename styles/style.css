@@ -22,7 +22,7 @@ body{
     top: 50% ;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    font-family: "Roboto", sans-serif;
 }
 
 .heading{
@@ -39,11 +39,13 @@ body{
 
 /* banner-section done */
 
+/* discount section */
+
 .discount-header{
     color: red;
     font-size: 50px;
     font-weight: 900;
-
+    font-family: "Roboto", sans-serif;
 }
 
 .discount-heading{
@@ -58,6 +60,7 @@ body{
     font-weight: 900;
     margin-top: 0;
     padding-top: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .discount-img{
@@ -75,6 +78,8 @@ body{
     text-align: center;
     margin-bottom: 90px;
 }
+
+/* discount section done */
 
 
 /* party section */
@@ -101,11 +106,12 @@ body{
     margin-left: 100px;
     margin-bottom: 0;
     padding-bottom: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .party-para{
     margin-left: 100px;
-}
+    }
 
 .btn{
     border: none;
@@ -119,3 +125,40 @@ body{
 .party-img{
     margin-right: 100px;
 }
+
+/* party section done */
+
+.gifts{
+    color: rgb(255, 72, 0);
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.gifts-header{
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.gift-para{
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 25px;
+    color: grey;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/* .images{
+    width: 600px;
+    height: 300px;
+} */
