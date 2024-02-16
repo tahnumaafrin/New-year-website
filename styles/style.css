@@ -1,9 +1,11 @@
-
 body{
     padding-left: 20px;
     padding-right: 10px;
     /* height: 100%; */
 }
+
+/* banner section */
+
 .banner{
     width: 1260px;
     height: 630px;
@@ -35,4 +37,93 @@ body{
     font-weight: 900;
     padding-top: 0;
     margin-top: 0;
+}
+
+/* banner-section done */
+
+.discount-header{
+    color: red;
+    font-weight: 900;
+
+}
+
+.discount-heading{
+    color: rgba(255, 0, 0, 0.829);
+    font-family: "Playfair Display", serif;
+}
+
+.categories{
+    font-weight: 900;
+}
+
+.discount{
+    /* width: 400px;
+    height: 200px;
+    background-image: url('New\ Year\ Photo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative; */
+    /* text-align: center; */
+}
+
+.discount-banner{
+    margin-top: 60px;
+    width: 400px;
+    height: 200px;
+    background-image: url('New\ Year\ Photo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    /* overflow: hidden; */
+    /* display: inline-flex;
+    flex-flow: column; 
+    justify-content: center; */
+    margin-bottom: 90px;
+}
+
+
+/* party section */
+
+.party-banner{
+    width: 1260px;
+    height: 630px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.party-text{
+    color: white;
+    text-align: left;
+    margin-bottom: 60px;
+}   
+
+.party-heading{
+    font-size: 100px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.party-para{
+    margin-left: 100px;
+}
+
+.btn{
+    border: none;
+    color: white;
+    font-weight: 900;
+    display: inline-block;
+    margin-left: 100px;
+    background-color: transparent;
+}
+
+.party-img{
+    margin-right: 100px;
 }
