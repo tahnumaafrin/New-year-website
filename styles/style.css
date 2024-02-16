@@ -13,8 +13,6 @@ body{
     background-size: cover;
     background-position: center;
     position: relative;
-    /* background-size: auto; */
-    /* padding-left: 10px; */
     background-repeat: no-repeat;
 }
 .header{
@@ -43,6 +41,7 @@ body{
 
 .discount-header{
     color: red;
+    font-size: 50px;
     font-weight: 900;
 
 }
@@ -50,37 +49,30 @@ body{
 .discount-heading{
     color: rgba(255, 0, 0, 0.829);
     font-family: "Playfair Display", serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .categories{
+    font-size: 30px;
     font-weight: 900;
+    margin-top: 0;
+    padding-top: 0;
 }
 
-.discount{
-    /* width: 400px;
-    height: 200px;
-    background-image: url('New\ Year\ Photo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative; */
-    /* text-align: center; */
+.discount-img{
+    width: 600px;
+    height: 350px;
 }
 
 .discount-banner{
     margin-top: 60px;
-    width: 400px;
-    height: 200px;
-    background-image: url('New\ Year\ Photo.png');
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
     text-align: center;
-    /* overflow: hidden; */
-    /* display: inline-flex;
-    flex-flow: column; 
-    justify-content: center; */
     margin-bottom: 90px;
 }
 
